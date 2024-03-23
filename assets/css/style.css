@@ -1,0 +1,120 @@
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    display: inline-block;
+    margin: 100px;
+
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    /* background-color: red; */
+}
+.info1,.info2,.info3,.info4,.info5,.info6,.info7,.info8,.info9,.info10,.info11,.info12{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+.info1{
+    background-color: orange;
+    transition: all 0.7s ease-in-out;
+}
+.info1:hover{
+    transform: rotateX(180deg);
+}
+
+.info2{
+    background-color: red;
+    transition: all 0.7s ease-in-out;
+}
+.info2:hover{
+    transform: rotate(-18deg);
+}
+.info3{
+    background-color:yellow;
+    transition: all 0.7s ease-in-out;
+}
+.info3:hover{
+    transform: rotateX(90deg);
+
+}
+.info4{
+    background-color: green;
+    transition: all 0.9s ease-in-out;
+    transform:scale(-10px);
+}
+.info4:hover{
+    transform: rotate(-180deg);
+}
+.info5{
+    background-color: blueviolet;
+    transition: all 0.10s ease-in-out;
+}
+.info5:hover{
+    transform: rotate(-90deg);
+}
+.info6{
+    background-color: aqua;
+    transition: all 0.7s ease-in-out;
+}
+.info6:hover{
+    transform: rotateY(-180deg);
+
+}
+.info7{
+    background-color: burlywood;
+    transform-origin: bottom;
+    transition: all 0.6s ease-in-out;
+}
+.info7:hover{
+    transform: rotateZ(180deg);
+}
+.info8{
+    background-color: yellowgreen;
+    transform-origin: left;
+    transition: all 0.7s ease-in-out;
+
+}
+.info8:hover{
+    transform: rotateZ(190deg);
+}
+.info9{
+    background-color: aqua;
+    transform-origin: right;
+    transition: all 0.7s ease-in-out;
+}
+.info9:hover{
+    transform: rotatez(180deg);
+
+}
+.info10{
+    background-color: brown;
+    transform-origin: top;
+    transition: all 0.7s ease-in-out;
+
+}
+.info10:hover{
+    transform: rotateX(180deg);
+   
+    
+}
+.info11{
+    background: #000;
+    transform-origin: bottom;
+    transition: all 0.7s ease-in-out;
+}
+.info11:hover{
+    transform: rotateZ(200deg);
+}
+.info12{
+    background-color: darkblue;
+  transform-origin: left;
+  transition: all 0.7s ease-in-out;
+   
+}
+.info12:hover{
+    transform: rotateY(-180deg);
+    
+}
